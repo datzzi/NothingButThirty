@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/whitemanni"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/study"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:text="겨우서른\n대사Study"
+                android:textSize="15sp" /><!--android:background="@drawable/buttonshape"-->
+
+            <Button
+                android:id="@+id/test"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+
+                android:text="랜덤\n테스트"
+                android:textSize="20sp" /><!--android:background="@drawable/buttonshape"-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/community"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:text="커뮤니티"
+                android:textSize="20sp"/><!--android:background="@drawable/buttonshape"-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_margin="20dp"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:textSize="20sp"
+                android:backgroundTint="#AD8888"
+                android:text="로그인"/>
+
+            <Button
+                android:id="@+id/btnJoin"
+                android:layout_margin="20dp"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:textSize="20sp"
+                android:backgroundTint="#AD8888"
+                android:text="회원가입"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!--
+
+자신이 만든 앱 apk 파일 만드는 법
+1. 디버깅 용
+1-1. 알파 테스트
+1-2. 베타 테스트
+2. 사용자 매뉴얼
+3. 배포용
+
+-->
